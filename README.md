@@ -11,3 +11,25 @@ Task is to Think about the challenges or questions the hypothetical company migh
 
 ## Dataset used:
 - <a href="https://github.com/areebahanif11/Capstone_Project/blob/main/AdventureWorks.xlsx">Dataset</a>
+
+
+## Data Overview:
+
+1.	DimCustomer:
+-	Contains customer-related information.
+- Key columns: CustomerKey, FirstName, LastName, EmailAddress, Phone, BirthDate, Gender, AddressLine, GeographyKey.
+2.	DimDate:
+-	Contains date-related information.
+-	Key columns: DateKey, FullDate, Day, Month, Quarter, Year.
+3.	DimProduct:
+-	Contains product-related information.
+-	Key columns: ProductKey, ProductName, ProductCategory, ProductSubcategory, StandardCost, ListPrice.
+4.	DimGeography:
+-	Contains geographical information.
+-	Key columns: GeographyKey, City, StateProvince, CountryRegion, PostalCode.
+5.	DimSalesTerritory:
+-	Contains sales territory information.
+-	Key columns: SalesTerritoryKey, SalesTerritoryRegion, SalesTerritoryCountry, SalesTerritoryGroup.
+6.	FactInternetSales:
+-	Contains internet sales transaction data.
+-	Key columns: SalesOrderNumber, CustomerKey, OrderDateKey, ProductKey, SalesTerritoryKey, SalesAmount, OrderQuantity, UnitPrice.
