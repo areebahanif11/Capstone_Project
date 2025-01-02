@@ -33,3 +33,6 @@ Task is to Think about the challenges or questions the hypothetical company migh
 6.	FactInternetSales:
 -	Contains internet sales transaction data.
 -	Key columns: SalesOrderNumber, CustomerKey, OrderDateKey, ProductKey, SalesTerritoryKey, SalesAmount, OrderQuantity, UnitPrice.
+
+## Dashboard:
+<img width="395" alt="AdventureWorks Dashboard" src="https://github.com/user-attachments/assets/f13baf8c-b5a2-42ce-b0ce-47f2a3ce1759" />
