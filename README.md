@@ -16,35 +16,35 @@ Task is to Think about the challenges or questions the hypothetical company migh
 ## Data Overview:
 
 1. DimCustomer:
-        - Contains customer-related information.
-        - Key columns: CustomerKey, FirstName, LastName, EmailAddress, Phone, BirthDate, Gender, AddressLine, GeographyKey.
+- Contains customer-related information.
+- Key columns: CustomerKey, FirstName, LastName, EmailAddress, Phone, BirthDate, Gender, AddressLine, GeographyKey.
 2. DimDate:
-        - Contains date-related information.
-        - Key columns: DateKey, FullDate, Day, Month, Quarter, Year.
+- Contains date-related information.
+- Key columns: DateKey, FullDate, Day, Month, Quarter, Year.
 3. DimProduct:
-        - Contains product-related information.
-        - Key columns: ProductKey, ProductName, ProductCategory, ProductSubcategory, StandardCost, ListPrice.
+- Contains product-related information.
+- Key columns: ProductKey, ProductName, ProductCategory, ProductSubcategory, StandardCost, ListPrice.
 4. DimGeography:
-        - Contains geographical information.
-        - Key columns: GeographyKey, City, StateProvince, CountryRegion, PostalCode.
+- Contains geographical information.
+- Key columns: GeographyKey, City, StateProvince, CountryRegion, PostalCode.
 5. DimSalesTerritory:
-        - Contains sales territory information.
-        - Key columns: SalesTerritoryKey, SalesTerritoryRegion, SalesTerritoryCountry, SalesTerritoryGroup.
+- Contains sales territory information.
+- Key columns: SalesTerritoryKey, SalesTerritoryRegion, SalesTerritoryCountry, SalesTerritoryGroup.
 6. FactInternetSales:
-        - Contains internet sales transaction data.
-        - Key columns: SalesOrderNumber, CustomerKey, OrderDateKey, ProductKey, SalesTerritoryKey, SalesAmount, OrderQuantity, UnitPrice.
+- Contains internet sales transaction data.
+- Key columns: SalesOrderNumber, CustomerKey, OrderDateKey, ProductKey, SalesTerritoryKey, SalesAmount, OrderQuantity, UnitPrice.
 
 ## Dashboard:
 <img width="395" alt="AdventureWorks Dashboard" src="https://github.com/user-attachments/assets/f13baf8c-b5a2-42ce-b0ce-47f2a3ce1759" />
 
 ## Key findings and analysis:
 
-        - Total customoers are 18K
-        - Total profit 12.8M
-        - By customers occupation sales are more for professional peers
-        - Total sales is almost equal for females and males
-        - Total customers are also equal by percentage as males and females
-        - Mountain-200 black 46 is the product highest sold
-        - Customers have bachelor education are at top 
-        - Average income of customers is 57.31 K
-        - Highest sales is from united states then Australia
+- Total customoers are 18K
+- Total profit 12.8M
+- By customers occupation sales are more for professional peers
+- Total sales is almost equal for females and males
+- Total customers are also equal by percentage as males and females
+- Mountain-200 black 46 is the product highest sold
+- Customers have bachelor education are at top 
+- Average income of customers is 57.31 K
+- Highest sales is from united states then Australia
