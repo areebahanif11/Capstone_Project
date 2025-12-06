@@ -1,50 +1,113 @@
-# AdventureWorks Data Analysis
-## The Adventutre Works report provides analysis about dataset, about customers sales data, product sales, data total quantities sold, total profit, total sales, total customers and geographical information.The aim of this analysis is to uncover trends and decision making about the customers.
+# 📊 AdventureWorks Sales Analytics Dashboard  
+### Transforming raw sales data into actionable business insights using **Power BI**
 
-## Introduction:
+---
 
-Adventure works is a company that sells outdoor gear such as bikes, hiking equiment and camping gear. In this report I deep dived into the dataset provideed and find insights. By looking trends, sales data and customers data I found insights for effective decision making. 
+## 🗂️ Table of Contents
+- [Project Overview](#project-overview)  
+- [Problem Statement](#problem-statement)  
+- [Dataset Description](#dataset-description)  
+- [Data Model](#data-model)  
+- [Project Workflow](#project-workflow)  
+- [Dashboard Preview](#dashboard-preview)  
+- [Key Insights](#key-insights)  
+- [Business Recommendations](#business-recommendations)  
+- [Tools Used](#tools-used)  
+- [How to Run](#how-to-run)  
+- [Contact](#contact)
 
-## Problem Statement:
+---
 
-Task is to Think about the challenges or questions the hypothetical company might be facing based on the provided dataset. What issues could they potentially address, or opportunities could they seize through data analysis?
+## 📘 Project Overview
+This capstone project analyzes the **AdventureWorks** dataset to uncover important business trends, customer behavior patterns, and product performance insights. The aim is to support data-driven decision-making through a clean, interactive, and visually compelling **Power BI dashboard**.
 
-## Dataset used:
-- <a href="https://github.com/areebahanif11/Capstone_Project/blob/main/AdventureWorks.xlsx">Dataset</a>
+The project covers:
+- Customer sales trends  
+- Product performance  
+- Regional sales behavior  
+- Profitability metrics  
+- Customer demographics  
 
+---
 
-## Data Overview:
+## ❗ Problem Statement
+AdventureWorks wants to strengthen its sales strategy, improve profitability, and understand customer behavior. Key business questions include:
 
-1. DimCustomer:
-- Contains customer-related information.
-- Key columns: CustomerKey, FirstName, LastName, EmailAddress, Phone, BirthDate, Gender, AddressLine, GeographyKey.
-2. DimDate:
-- Contains date-related information.
-- Key columns: DateKey, FullDate, Day, Month, Quarter, Year.
-3. DimProduct:
-- Contains product-related information.
-- Key columns: ProductKey, ProductName, ProductCategory, ProductSubcategory, StandardCost, ListPrice.
-4. DimGeography:
-- Contains geographical information.
-- Key columns: GeographyKey, City, StateProvince, CountryRegion, PostalCode.
-5. DimSalesTerritory:
-- Contains sales territory information.
-- Key columns: SalesTerritoryKey, SalesTerritoryRegion, SalesTerritoryCountry, SalesTerritoryGroup.
-6. FactInternetSales:
-- Contains internet sales transaction data.
-- Key columns: SalesOrderNumber, CustomerKey, OrderDateKey, ProductKey, SalesTerritoryKey, SalesAmount, OrderQuantity, UnitPrice.
+- Which products and categories are driving the most revenue?  
+- Which customer groups have the highest purchasing power?  
+- Which regions and territories perform the best?  
+- What trends can guide future marketing and inventory decisions?  
 
-## Dashboard:
-<img width="395" alt="AdventureWorks Dashboard" src="https://github.com/user-attachments/assets/f13baf8c-b5a2-42ce-b0ce-47f2a3ce1759" />
+This dashboard provides insights to help the company improve decision-making and identify growth opportunities.
 
-## Key findings and analysis:
+---
 
-- Total customoers are 18K
-- Total profit 12.8M
-- By customers occupation sales are more for professional peers
-- Total sales is almost equal for females and males
-- Total customers are also equal by percentage as males and females
-- Mountain-200 black 46 is the product highest sold
-- Customers have bachelor education are at top 
-- Average income of customers is 57.31 K
-- Highest sales is from united states then Australia
+## 📂 Dataset Description
+The project uses a **star schema** containing the following tables:
+
+### **DimCustomer**
+Information about customers.  
+**Key columns:** CustomerKey, FirstName, Gender, Education, Occupation, YearlyIncome, GeographyKey
+
+### **DimDate**
+Calendar information for time-series analysis.  
+**Key columns:** DateKey, FullDate, Day, Month, Quarter, Year
+
+### **DimProduct**
+Product-level details.  
+**Key columns:** ProductKey, ProductName, Category, Subcategory, StandardCost, ListPrice
+
+### **DimGeography**
+Geographical details for customer location analysis.  
+**Key columns:** GeographyKey, City, StateProvince, CountryRegion
+
+### **DimSalesTerritory**
+Sales territory grouping.  
+**Key columns:** SalesTerritoryKey, Region, Country, Group
+
+### **FactInternetSales**
+Main transaction table with sales metrics.  
+**Key columns:** SalesOrderNumber, ProductKey, CustomerKey, OrderDateKey, SalesAmount, OrderQuantity, UnitPrice
+
+---
+
+## 🔧 Project Workflow
+1. **Data Cleaning & ETL** in Power Query  
+2. **Data Modeling** using relationships between dimension and fact tables  
+3. **DAX Calculations** for KPIs and metrics  
+4. **Dashboard Designing** with interactive visuals  
+5. **Insight Generation** through sales, customer, and product analysis  
+
+---
+
+## 📊 Dashboard Preview
+> <img width="395" alt="AdventureWorks Dashboard" src="https://github.com/user-attachments/assets/f13baf8c-b5a2-42ce-b0ce-47f2a3ce1759" />  
+
+---
+
+## 🔍 Key Insights
+- **18K total customers**, evenly split between male and female.  
+- **Total Profit:** **12.8M**, indicating strong revenue performance.  
+- Customers with **Professional occupation** contribute the highest sales.  
+- **Mountain-200 Black 46** is the **best-selling product**.  
+- Customers with a **Bachelor’s education** make the most purchases.  
+- Average customer yearly income is **$57.31K**.  
+- **United States** leads in total sales, followed by Australia.
+
+---
+
+## 💡 Business Recommendations
+- Focus marketing campaigns on **professionals** and **bachelor-degree customers** to boost revenue.  
+- Increase stock and promotion of **top-selling products** like Mountain-200.  
+- Strengthen operations in **high-performing regions** such as the USA and Australia.  
+- Offer targeted discounts or bundles for low-performing products.  
+- Build customer loyalty programs to encourage repeat purchases.
+
+---
+
+## 🛠️ Tools Used
+- **Power BI**  
+- **Power Query**  
+- **DAX**  
+- **Excel**   
+ 
