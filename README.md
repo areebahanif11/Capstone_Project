@@ -13,8 +13,6 @@
 - [Key Insights](#key-insights)  
 - [Business Recommendations](#business-recommendations)  
 - [Tools Used](#tools-used)  
-- [How to Run](#how-to-run)  
-- [Contact](#contact)
 
 ---
 
