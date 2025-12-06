@@ -1,9 +1,9 @@
 # AdventureWorks Data Analysis
-## The Adventutre Works report provides analysis about dataset, about customers sales data, product sales data total quantities sold, total profit, total sales, total customers and geographical information.The aim of this analysis is to uncover trends and decision making about the customers.
+## The Adventutre Works report provides analysis about dataset, about customers sales data, product sales, data total quantities sold, total profit, total sales, total customers and geographical information.The aim of this analysis is to uncover trends and decision making about the customers.
 
 ## Introduction:
 
-Adventure works is a company that sells outdoor gear such as bikes, hiking equiment and camping gear. In this report we will deep dive into the dataset provides and find insights. By looking trends, sales data and customers data we will find insights for effective decision making. 
+Adventure works is a company that sells outdoor gear such as bikes, hiking equiment and camping gear. In this report I deep dived into the dataset provideed and find insights. By looking trends, sales data and customers data I found insights for effective decision making. 
 
 ## Problem Statement:
 
