@@ -138,10 +138,10 @@ It reflects the role of a **Business Data Analyst as a bridge between data and b
 For detailed analysis and implementation:
 
 📄 **Business Analysis**  
-See: [Business analysis](https://github.com/areebahanif11/Capstone_Project/blob/main/Business_Analysis.md)
+See: [Here](https://github.com/areebahanif11/Capstone_Project/blob/main/Business_Analysis.md)
 
 📄 **Technical Documentation**  
-See: `technical-documentation.md`
+See: [Here](https://github.com/areebahanif11/Sales_and_CustomerAnalysis/blob/main/Technical_Documentation.md)
 
 ---
 
