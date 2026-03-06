@@ -1,4 +1,4 @@
-# 📊 Business Analysis – Adventure Works
+# 📊 Business Analysis
 
 ---
 
