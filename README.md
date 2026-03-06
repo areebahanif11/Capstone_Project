@@ -31,7 +31,7 @@ These insights help businesses **optimize product strategy, marketing decisions,
 
 ---
 
-# 🎯 Business Objective
+#  Business Objective
 
 The goal of this project is to answer critical business questions such as:
 
@@ -45,7 +45,7 @@ By answering these questions, businesses can make **data-driven strategic decisi
 
 ---
 
-# 📊 Dashboard Overview
+#  Dashboard Overview
 
 The dashboard is designed to provide **two layers of business insights**.
 
@@ -86,7 +86,7 @@ These insights help businesses **identify their most valuable customer segments*
 
 ---
 
-# 💡 Key Business Insights
+#  Key Business Insights
 
 ### 1️⃣ Revenue is Concentrated in a Small Number of Products
 
@@ -120,7 +120,7 @@ This helps identify **regional growth opportunities**.
 
 ---
 
-# 🚀 Business Value of This Project
+#  Business Value of This Project
 
 This project demonstrates how data analysis can help businesses:
 
@@ -133,7 +133,7 @@ It reflects the role of a **Business Data Analyst as a bridge between data and b
 
 ---
 
-# 📂 Project Documentation
+#  Project Documentation
 
 For detailed analysis and implementation:
 
@@ -145,7 +145,7 @@ See: `technical-documentation.md`
 
 ---
 
-# 👩‍💻 About Me
+#  About Me
 
 I am a **Data Science student passionate about Business Data Analytics**.
 
